@@ -58,7 +58,7 @@ export function Header() {
         <div className="hidden md:flex items-center space-x-4">
           <LanguageSwitcher />
           <Link href="/auth/signin">
-            <RainbowButton>
+            <RainbowButton className="rounded-md">
               {t("navigation.signIn")}
             </RainbowButton>
           </Link>
@@ -80,7 +80,8 @@ export function Header() {
             <Link href="#features" className="block text-sm font-medium hover:text-primary transition-colors" onClick={(e) => handleSmoothScroll(e, "features")}>
               {t("navigation.features")}
             </Link>
-            <Link href="#pricing" className="block text-sm font-medium hover:text-primary transition-colors" onClick={(e) => handleSmoothScroll(e, "pricing")}>
+            <Link href="#pricing" className="block text-sm font-medium hover:text-primary transition-colors"
+              onClick={(e) => handleSmoothScroll(e, "pricing")}>
               {t("navigation.pricing")}
             </Link>
             <Link href="/docs" className="block text-sm font-medium hover:text-primary transition-colors">
@@ -89,7 +90,7 @@ export function Header() {
 
             <div className="flex space-x-2 pt-4">
               <Link href="/auth/signin" className="flex-1">
-                <RainbowButton>
+                <RainbowButton className="rounded-md">
                   {t("navigation.signIn")}
                 </RainbowButton>
               </Link>
