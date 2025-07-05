@@ -6,13 +6,15 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { AuthProvider } from "@/components/auth-provider"
 import { I18nProvider } from "@/components/i18n/lingo-provider"
 import { Toaster } from "@/components/ui/toaster"
+import LenisProvider from "@/lib/providers/LenisProvider"
+
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "ZenDoc - AI-Powered Documentation Generator",
   description: "Generate beautiful documentation from any codebase using Google Gemini AI — all with one command.",
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -26,8 +28,10 @@ export default function RootLayout({
         <I18nProvider>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
             <AuthProvider>
-              {children}
-              <Toaster />
+              <LenisProvider>
+                {children}
+                <Toaster />
+              </LenisProvider>
             </AuthProvider>
           </ThemeProvider>
         </I18nProvider>
