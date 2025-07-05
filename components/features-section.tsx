@@ -65,7 +65,7 @@ const features = [
 
 export function FeaturesSection() {
   return (
-    <section className="py-20 md:py-32">
+    <section className="py-20 md:py-32" id="features">
       <div className="container">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4">

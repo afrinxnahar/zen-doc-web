@@ -12,9 +12,8 @@ import LenisProvider from "@/lib/providers/LenisProvider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ZenDoc - AI-Powered Documentation Generator",
+  title: "Zen Doc - AI-Powered Documentation Generator",
   description: "Generate beautiful documentation from any codebase using Google Gemini AI — all with one command.",
-  generator: 'v0.dev'
 }
 
 export default function RootLayout({

@@ -1,9 +1,11 @@
 // zen-doc-web/src/components/LenisProvider.tsx
 "use client";
 
-import { useEffect, useRef } from "react";
+import { createContext, useContext, useEffect, useRef } from "react";
 import Lenis from "lenis";
 import { usePathname, useSearchParams } from "next/navigation";
+
+const LenisContext = createContext<Lenis | null>(null);
 
 export default function LenisProvider({ children }: { children: React.ReactNode }) {
   const lenisRef = useRef<Lenis | null>(null);
@@ -18,11 +20,6 @@ export default function LenisProvider({ children }: { children: React.ReactNode 
 
     lenisRef.current = lenis;
 
-    lenis.on("scroll", (e) => {
-      console.log("Scroll event:", e);
-    });
-
-    // Cleanup on unmount
     return () => {
       lenis.destroy();
       lenisRef.current = null;
@@ -37,5 +34,7 @@ export default function LenisProvider({ children }: { children: React.ReactNode 
     }
   }, [pathname, searchParams]);
 
-  return <>{children}</>;
+  return <LenisContext.Provider value={lenisRef.current}>{children}</LenisContext.Provider>;
 }
+
+export const useLenis = () => useContext(LenisContext);

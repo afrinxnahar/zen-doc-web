@@ -11,7 +11,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
               <Terminal className="h-6 w-6" />
-              <span className="font-bold text-xl">ZenDoc</span>
+              <span className="font-bold text-xl">Zen Doc</span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
               AI-powered documentation generation for modern development teams.
