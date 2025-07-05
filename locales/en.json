@@ -1,0 +1,376 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "open": "Open"
+  },
+  "navigation": {
+    "home": "Home",
+    "features": "Features",
+    "documentation": "Documentation",
+    "pricing": "Pricing",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out"
+  },
+  "hero": {
+    "title": "Generate Documentation from Any Codebase",
+    "subtitle": "ZenDoc is an AI-powered CLI tool that automatically generates comprehensive documentation from your codebase using advanced AI — all with one simple command.",
+    "cta": {
+      "primary": "Try ZenDoc CLI",
+      "secondary": "View Documentation"
+    },
+    "install": {
+      "label": "Install with npm:",
+      "command": "npm install -g zendoc-cli"
+    },
+    "badge": "Powered by Google Gemini AI"
+  },
+  "features": {
+    "title": "Everything you need for perfect docs",
+    "subtitle": "ZenDoc combines the power of AI with developer-friendly tools to create documentation that actually helps your team and users.",
+    "items": {
+      "oneCommand": {
+        "title": "One Command Setup",
+        "description": "Generate comprehensive documentation with a single CLI command. No complex configuration required.",
+        "badge": "Easy"
+      },
+      "aiPowered": {
+        "title": "AI-Powered Analysis",
+        "description": "Leverages Google Gemini AI to understand your code structure and generate intelligent documentation.",
+        "badge": "Smart"
+      },
+      "multipleFormats": {
+        "title": "Multiple Formats",
+        "description": "Export documentation in Markdown, HTML, PDF, or integrate directly with popular documentation platforms.",
+        "badge": "Flexible"
+      },
+      "languageAgnostic": {
+        "title": "Language Agnostic",
+        "description": "Works with any programming language or framework. From JavaScript to Python, React to Django.",
+        "badge": "Universal"
+      },
+      "gitIntegration": {
+        "title": "Git Integration",
+        "description": "Automatically detects changes and updates documentation. Seamlessly integrates with your Git workflow.",
+        "badge": "Automated"
+      },
+      "lightningFast": {
+        "title": "Lightning Fast",
+        "description": "Process thousands of files in seconds. Optimized for performance with intelligent caching.",
+        "badge": "Fast"
+      },
+      "realTimeUpdates": {
+        "title": "Real-time Updates",
+        "description": "Watch mode automatically regenerates docs when your code changes. Perfect for active development.",
+        "badge": "Live"
+      },
+      "privacyFirst": {
+        "title": "Privacy First",
+        "description": "Your code never leaves your machine. All processing happens locally with secure API calls.",
+        "badge": "Secure"
+      },
+      "customizableThemes": {
+        "title": "Customizable Themes",
+        "description": "Choose from beautiful pre-built themes or create your own. Match your brand and style.",
+        "badge": "Stylish"
+      }
+    }
+  },
+  "auth": {
+    "signIn": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your account to continue",
+      "form": {
+        "email": "Email",
+        "password": "Password",
+        "emailPlaceholder": "Enter your email",
+        "passwordPlaceholder": "Enter your password",
+        "submit": "Sign in with Email",
+        "submitting": "Signing in..."
+      },
+      "oauth": {
+        "google": "Continue with Google",
+        "github": "Continue with GitHub"
+      },
+      "links": {
+        "forgotPassword": "Forgot your password?",
+        "noAccount": "Don't have an account?",
+        "signUp": "Sign up"
+      }
+    },
+    "signUp": {
+      "title": "Create your account",
+      "subtitle": "Get started with ZenDoc today",
+      "form": {
+        "name": "Full Name",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "namePlaceholder": "Enter your full name",
+        "emailPlaceholder": "Enter your email",
+        "passwordPlaceholder": "Enter your password",
+        "confirmPasswordPlaceholder": "Confirm your password",
+        "submit": "Create Account",
+        "submitting": "Creating account..."
+      },
+      "links": {
+        "hasAccount": "Already have an account?",
+        "signIn": "Sign in"
+      },
+      "terms": "By creating an account, you agree to our Terms of Service and Privacy Policy"
+    },
+    "verifyEmail": {
+      "title": "Check your email",
+      "subtitle": "We've sent a verification link to your email address. Please click the link to verify your account.",
+      "resend": "Resend verification email",
+      "noEmail": "Didn't receive the email? Check your spam folder or",
+      "backToSignIn": "Back to Sign In"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Welcome back! Here's an overview of your ZenDoc usage.",
+    "stats": {
+      "creditsUsed": "Credits Used",
+      "filesProcessed": "Files Processed",
+      "docsGenerated": "Docs Generated",
+      "timeSaved": "Time Saved",
+      "thisMonth": "This month",
+      "totalFiles": "Total files",
+      "estimated": "Estimated"
+    },
+    "usage": {
+      "title": "Weekly Usage",
+      "subtitle": "Credits consumed over the last 7 days",
+      "badge": "This Week"
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "subtitle": "Your latest documentation generations and updates"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "subtitle": "Common tasks to help you get started",
+      "generateDocs": {
+        "title": "Generate New Docs",
+        "description": "Create documentation for a new project",
+        "action": "Generate"
+      },
+      "runCli": {
+        "title": "Run CLI Command",
+        "description": "Execute ZenDoc CLI with custom parameters",
+        "action": "Run"
+      },
+      "configureSettings": {
+        "title": "Configure Settings",
+        "description": "Update your documentation preferences",
+        "action": "Configure"
+      },
+      "upgradePlan": {
+        "title": "Upgrade Plan",
+        "description": "Get more credits and advanced features",
+        "action": "Upgrade"
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your account settings and preferences.",
+    "tabs": {
+      "account": "Account",
+      "billing": "Billing"
+    },
+    "account": {
+      "profile": {
+        "title": "Profile Information",
+        "subtitle": "Update your personal information and profile settings.",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "verified": "Verified",
+        "changeAvatar": "Change Avatar",
+        "avatarHint": "JPG, GIF or PNG. 1MB max.",
+        "saveChanges": "Save Changes"
+      },
+      "security": {
+        "title": "Security",
+        "subtitle": "Manage your password and security preferences.",
+        "password": {
+          "title": "Password",
+          "lastChanged": "Last changed 3 months ago",
+          "change": "Change Password"
+        },
+        "twoFactor": {
+          "title": "Two-Factor Authentication",
+          "description": "Add an extra layer of security to your account",
+          "enable": "Enable 2FA"
+        }
+      },
+      "emailPreferences": {
+        "title": "Email Preferences",
+        "subtitle": "Choose what email notifications you'd like to receive.",
+        "documentationUpdates": {
+          "title": "Documentation Updates",
+          "description": "Get notified when your documentation is generated"
+        },
+        "usageAlerts": {
+          "title": "Usage Alerts",
+          "description": "Receive alerts when you're approaching your credit limit"
+        },
+        "productUpdates": {
+          "title": "Product Updates",
+          "description": "Stay informed about new features and improvements"
+        },
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      }
+    },
+    "billing": {
+      "currentPlan": {
+        "title": "Current Plan",
+        "subtitle": "You're currently on the Pro plan.",
+        "creditsUsed": "Credits Used",
+        "creditsRemaining": "credits remaining this month",
+        "changePlan": "Change Plan",
+        "cancelSubscription": "Cancel Subscription"
+      },
+      "availablePlans": {
+        "title": "Available Plans",
+        "subtitle": "Choose the plan that best fits your needs.",
+        "currentPlan": "Current Plan",
+        "upgrade": "Upgrade"
+      },
+      "paymentMethod": {
+        "title": "Payment Method",
+        "subtitle": "Manage your payment methods and billing information.",
+        "expires": "Expires",
+        "edit": "Edit",
+        "addPaymentMethod": "Add Payment Method"
+      },
+      "billingHistory": {
+        "title": "Billing History",
+        "subtitle": "Download your invoices and view payment history.",
+        "paid": "Paid"
+      }
+    }
+  },
+  "docs": {
+    "title": "ZenDoc Documentation",
+    "subtitle": "Learn how to use ZenDoc to generate beautiful documentation from your codebase using AI.",
+    "quickStart": {
+      "title": "Quick Start",
+      "subtitle": "Get up and running with ZenDoc in less than 5 minutes.",
+      "installation": {
+        "title": "Installation",
+        "subtitle": "Install ZenDoc CLI globally using npm"
+      },
+      "basicUsage": {
+        "title": "Basic Usage",
+        "subtitle": "Generate documentation for your project",
+        "description": "This command will analyze your source code in the ./src directory and generate documentation in the ./docs folder."
+      },
+      "configureApiKey": {
+        "title": "Configure API Key",
+        "subtitle": "Set up your Google Gemini API key for AI-powered documentation",
+        "getApiKey": "Get your API key",
+        "getApiKeyDescription": "Visit the Google AI Studio to get your free Gemini API key."
+      }
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "subtitle": "Discover what makes ZenDoc the perfect documentation tool for developers.",
+      "aiPoweredAnalysis": {
+        "title": "AI-Powered Analysis",
+        "description": "Leverages Google Gemini to understand your code structure and generate intelligent documentation.",
+        "features": ["Automatic code analysis", "Context-aware documentation", "Smart formatting and structure"]
+      },
+      "multipleOutputFormats": {
+        "title": "Multiple Output Formats",
+        "description": "Export your documentation in various formats to suit your workflow.",
+        "features": ["Markdown files", "Static HTML sites", "PDF documents"]
+      },
+      "languageAgnostic": {
+        "title": "Language Agnostic",
+        "description": "Works with any programming language or framework out of the box.",
+        "features": ["JavaScript/TypeScript", "Python, Java, C++", "And many more..."]
+      },
+      "gitIntegration": {
+        "title": "Git Integration",
+        "description": "Seamlessly integrates with your existing Git workflow and CI/CD pipelines.",
+        "features": ["Automatic change detection", "CI/CD integration", "Version control friendly"]
+      }
+    },
+    "nextSteps": {
+      "title": "Next Steps",
+      "subtitle": "Ready to dive deeper? Here are some recommended next steps.",
+      "cliReference": {
+        "title": "CLI Reference",
+        "description": "Explore all available commands and options",
+        "action": "Learn More"
+      },
+      "configuration": {
+        "title": "Configuration",
+        "description": "Customize ZenDoc to fit your project needs",
+        "action": "Configure"
+      },
+      "examples": {
+        "title": "Examples",
+        "description": "See ZenDoc in action with real-world examples",
+        "action": "View Examples"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to transform your documentation workflow?",
+    "subtitle": "Join thousands of developers who have already streamlined their documentation process with ZenDoc. Start generating beautiful docs in minutes.",
+    "stats": {
+      "downloads": "CLI Downloads",
+      "developers": "Happy Developers",
+      "filesProcessed": "Files Processed"
+    },
+    "buttons": {
+      "startFreeTrial": "Start Free Trial",
+      "viewDocumentation": "View Documentation"
+    },
+    "disclaimer": "No credit card required • Free tier available • Cancel anytime"
+  },
+  "footer": {
+    "description": "AI-powered documentation generation for modern development teams.",
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "pricing": "Pricing",
+      "documentation": "Documentation",
+      "changelog": "Changelog"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "blog": "Blog",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "security": "Security",
+      "status": "Status"
+    },
+    "copyright": "© {year} ZenDoc. All rights reserved.",
+    "madeWith": "Made with ❤️ for developers"
+  }
+}
