@@ -23,6 +23,7 @@ export function Header() {
   const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
     e.preventDefault();
     if (lenis) {
+      console.log("Lenis is ready, performing smooth scroll to:", targetId);
       const targetElement = document.getElementById(targetId);
       if (targetElement) {
         const offsetTop = targetElement.getBoundingClientRect().top + window.scrollY - 80; // Adjust for header height (e.g., 80px)
@@ -90,7 +91,7 @@ export function Header() {
 
             <div className="flex space-x-2 pt-4">
               <Link href="/auth/signin" className="flex-1">
-                <RainbowButton className="rounded-md">
+                <RainbowButton className="rounded-md" >
                   {t("navigation.signIn")}
                 </RainbowButton>
               </Link>

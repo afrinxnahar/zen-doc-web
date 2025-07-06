@@ -14,7 +14,7 @@ interface I18nContextType {
 
 const I18nContext = createContext<I18nContextType>({
   locale: defaultLocale,
-  setLocale: () => {},
+  setLocale: () => { },
   isLoading: false,
   translations: {},
 })
@@ -50,9 +50,9 @@ const englishTranslations = {
   hero: {
     title: "Generate Documentation from Any Codebase",
     subtitle:
-      "ZenDoc is an AI-powered CLI tool that automatically generates comprehensive documentation from your codebase using advanced AI — all with one simple command.",
+      "Zen Doc is an AI-powered CLI tool that automatically generates comprehensive documentation from your codebase using advanced AI — all with one simple command.",
     cta: {
-      primary: "Try ZenDoc CLI",
+      primary: "Try Zen Doc CLI",
       secondary: "View Documentation",
     },
     install: {
