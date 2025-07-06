@@ -362,6 +362,30 @@ export default {
         },
       },
     },
+    "../components/logo.tsx": {
+      entries: {
+        "3/body/0/argument/1-alt": {
+          content: {
+            de: "ZenDoc Logo",
+            en: "ZenDoc Logo",
+            es: "Logotipo de ZenDoc",
+            fr: "Logo ZenDoc",
+            ja: "ZenDocのロゴ",
+          },
+          hash: "74548dbbc4bae5700bd9feb52dc75ac8",
+        },
+        "3/body/0/argument/3": {
+          content: {
+            de: "ZenDoc",
+            en: "ZenDoc",
+            es: "ZenDoc",
+            fr: "ZenDoc",
+            ja: "ZenDoc",
+          },
+          hash: "68f506dea2055e4e9c4ee078c0bf0642",
+        },
+      },
+    },
     "../components/pricing-section.tsx": {
       entries: {
         "6/declaration/body/0/argument/1/1/1": {
@@ -415,6 +439,462 @@ export default {
               ja: "/{plan.period}",
             },
             hash: "d727054cb65d0e95c79cfb34bc3e3f28",
+          },
+        "6/declaration/body/0/argument/1/5/1": {
+          content: {
+            de: "Alle Pläne beinhalten eine 14-tägige kostenlose Testversion. Keine Kreditkarte erforderlich.",
+            en: "All plans include a 14-day free trial. No credit card required.",
+            es: "Todos los planes incluyen una prueba gratuita de 14 días. No se requiere tarjeta de crédito.",
+            fr: "Tous les plans comprennent un essai gratuit de 14 jours. Aucune carte de crédit requise.",
+            ja: "すべてのプランに14日間の無料トライアルが含まれています。クレジットカードは不要です。",
+          },
+          hash: "8b151e0e62e4df756aeb1bfca69aeb37",
+        },
+        "6/declaration/body/0/argument/1/5/3/1/3": {
+          content: {
+            de: "Jederzeit kündbar",
+            en: "Cancel anytime",
+            es: "Cancele en cualquier momento",
+            fr: "Annulation à tout moment",
+            ja: "いつでもキャンセル可能",
+          },
+          hash: "ae51443d033cb7dea112f957d81c9156",
+        },
+        "6/declaration/body/0/argument/1/5/3/3/3": {
+          content: {
+            de: "Keine Einrichtungsgebühren",
+            en: "No setup fees",
+            es: "Sin tarifas de configuración",
+            fr: "Aucuns frais d’installation",
+            ja: "初期費用なし",
+          },
+          hash: "a870ba09e0c018979ab1d9c004dc4d58",
+        },
+        "6/declaration/body/0/argument/1/5/3/5/3": {
+          content: {
+            de: "24/7-Support",
+            en: "24/7 support",
+            es: "Soporte 24/7",
+            fr: "Assistance 24 h/24, 7 j/7",
+            ja: "24時間年中無休のサポート",
+          },
+          hash: "7e271fa026ce245edcf9650563a0cb55",
+        },
+      },
+    },
+    "../components/sections/cta-section.tsx": {
+      entries: {
+        "5/declaration/body/1/argument/1/1/1/5/1": {
+          content: {
+            de: "Dokumente <element:span>aus Ihrem Code generieren</element:span>",
+            en: "Generate Docs <element:span>from your codebase</element:span>",
+            es: "Genera documentación <element:span>desde tu código base</element:span>",
+            fr: "Générez de la documentation <element:span>à partir de votre code</element:span>",
+            ja: "コードベースからドキュメントを生成<element:span>しましょう</element:span>",
+          },
+          hash: "a482929f8fd2c7833e0abccd0e44b484",
+        },
+        "5/declaration/body/1/argument/1/1/1/5/3": {
+          content: {
+            de: "Hören Sie auf, Dokumentation manuell zu schreiben. Lassen Sie die KI die schwere Arbeit erledigen, während Sie sich auf die Entwicklung großartiger Software konzentrieren.",
+            en: "Stop writing documentation manually. Let AI do the heavy lifting while you focus on building amazing software.",
+            es: "Deja de escribir documentación manualmente. Deja que la IA haga el trabajo pesado mientras te concentras en construir software increíble.",
+            fr: "Arrêtez d'écrire de la documentation manuellement. Laissez l'IA faire le gros du travail pendant que vous vous concentrez sur la création de logiciels exceptionnels.",
+            ja: "ドキュメントの手動作成はやめましょう。AIに重労働を任せて、素晴らしいソフトウェアの構築に集中しましょう。",
+          },
+          hash: "3df1b5417d297c1c750ea8e9487fed62",
+        },
+        "5/declaration/body/1/argument/1/1/1/5/7/1": {
+          content: {
+            de: "In Sekundenschnelle loslegen",
+            en: "Get started in seconds",
+            es: "Comienza en segundos",
+            fr: "Démarrez en quelques secondes",
+            ja: "数秒で開始できます",
+          },
+          hash: "f8d523f371a000f2a71fc86ff787f336",
+        },
+        "5/declaration/body/1/argument/1/1/1/5/9": {
+          content: {
+            de: "Open Source • Community-gesteuert • Für Entwickler entwickelt",
+            en: "Open source • Community driven • Built for developers",
+            es: "Código abierto • Impulsado por la comunidad • Creado para desarrolladores",
+            fr: "Open source • Piloté par la communauté • Conçu pour les développeurs",
+            ja: "オープンソース • コミュニティ主導 • 開発者向け",
+          },
+          hash: "602280f758ed96ce404f6bca3a2b801d",
+        },
+      },
+    },
+    "../components/sections/features-section.tsx": {
+      entries: {
+        "4/declaration/body/0/argument/1/1/1": {
+          content: {
+            de: "Funktionen",
+            en: "Features",
+            es: "Características",
+            fr: "Fonctionnalités",
+            ja: "機能",
+          },
+          hash: "d003eae00652261275ae490925a93501",
+        },
+        "4/declaration/body/0/argument/1/1/3": {
+          content: {
+            de: "Alles, was Sie für <element:span>perfekte Dokumente</element:span> benötigen",
+            en: "Everything you need for <element:span>perfect docs</element:span>",
+            es: "Todo lo que necesita para una <element:span>documentación perfecta</element:span>",
+            fr: "Tout ce dont vous avez besoin pour des <element:span>documents parfaits</element:span>",
+            ja: "<element:span>完璧なドキュメント</element:span>に必要なすべて",
+          },
+          hash: "59d4f22f846bfcdb8c2e2e9204ff930c",
+        },
+        "4/declaration/body/0/argument/1/1/5": {
+          content: {
+            de: "ZenDoc vereint KI und entwicklerorientiertes Design, um eine Dokumentation zu liefern, die Klarheit und Zusammenarbeit fördert.",
+            en: "ZenDoc brings together AI and developer-first design to deliver documentation that drives clarity and collaboration.",
+            es: "ZenDoc reúne la IA y el diseño centrado en el desarrollador para ofrecer una documentación que impulse la claridad y la colaboración.",
+            fr: "ZenDoc rassemble l'IA et une conception axée sur le développeur pour fournir une documentation qui favorise la clarté et la collaboration.",
+            ja: "ZenDocは、AIと開発者第一の設計を組み合わせ、明確さとコラボレーションを促進するドキュメントを提供します。",
+          },
+          hash: "221aec6716ba0b0ea27e5d040e14db53",
+        },
+      },
+    },
+    "../components/sections/footer.tsx": {
+      entries: {
+        "4/declaration/body/0/argument/1/1/3/3": {
+          content: {
+            de: "KI-gestütztes CLI-Tool, das umfassende Dokumentation aus Ihrem Code generiert.",
+            en: "AI-powered CLI tool that generates comprehensive documentation from your codebase.",
+            es: "Herramienta CLI impulsada por IA que genera documentación completa a partir de tu código base.",
+            fr: "Outil CLI basé sur l'IA qui génère une documentation complète à partir de votre code.",
+            ja: "コードベースから包括的なドキュメントを生成するAI搭載のCLIツール。",
+          },
+          hash: "8ec40e4bae5b0f9920cc21a67e046788",
+        },
+        "4/declaration/body/0/argument/1/3/1": {
+          content: {
+            de: "© <function:Date.getFullYear/> ZenDoc. Alle Rechte vorbehalten.",
+            en: "© <function:Date.getFullYear/> ZenDoc. All rights reserved.",
+            es: "© <function:Date.getFullYear/> ZenDoc. Todos los derechos reservados.",
+            fr: "© <function:Date.getFullYear/> ZenDoc. Tous droits réservés.",
+            ja: "© <function:Date.getFullYear/> ZenDoc. All rights reserved.",
+          },
+          hash: "c1e68328fb009958a2a090a84ce6ef99",
+        },
+        "4/declaration/body/0/argument/1/3/3": {
+          content: {
+            de: "Mit ❤️ für Entwickler gemacht",
+            en: "Made with ❤️ for developers",
+            es: "Hecho con ❤️ para desarrolladores",
+            fr: "Fait avec ❤️ pour les développeurs",
+            ja: "開発者のために❤️を込めて作成",
+          },
+          hash: "3cc5ca85fc8847ea15e4ba388e48c697",
+        },
+      },
+    },
+    "../components/sections/header.tsx": {
+      entries: {
+        "10/declaration/body/3/argument/1/5/1": {
+          content: {
+            de: "Funktionen",
+            en: "Features",
+            es: "Características",
+            fr: "Fonctionnalités",
+            ja: "機能",
+          },
+          hash: "d003eae00652261275ae490925a93501",
+        },
+        "10/declaration/body/3/argument/1/5/3": {
+          content: {
+            de: "Preise",
+            en: "Pricing",
+            es: "Precios",
+            fr: "Tarification",
+            ja: "価格",
+          },
+          hash: "9b4f8e0306262c4d6614efcf7d74b674",
+        },
+        "10/declaration/body/3/argument/1/5/5": {
+          content: {
+            de: "Dokumente",
+            en: "Docs",
+            es: "Documentos",
+            fr: "Documents",
+            ja: "ドキュメント",
+          },
+          hash: "190c4fe735b16b204179b4fd69cf9716",
+        },
+        "10/declaration/body/3/argument/1/7/3/1": {
+          content: {
+            de: "ANMELDEN",
+            en: "SIGN IN",
+            es: "INICIAR SESIÓN",
+            fr: "SE CONNECTER",
+            ja: "サインイン",
+          },
+          hash: "b4902089da68be0577a9a020535e637c",
+        },
+        "10/declaration/body/3/argument/5/expression/right/1/1": {
+          content: {
+            de: "Funktionen",
+            en: "Features",
+            es: "Características",
+            fr: "Fonctionnalités",
+            ja: "機能",
+          },
+          hash: "2e0b8174a0461da84f5a7f647033db84",
+        },
+        "10/declaration/body/3/argument/5/expression/right/1/3": {
+          content: {
+            de: "Preise",
+            en: "Pricing",
+            es: "Precios",
+            fr: "Tarifs",
+            ja: "価格",
+          },
+          hash: "d54416fc69270a57577dd7f00c55323b",
+        },
+        "10/declaration/body/3/argument/5/expression/right/1/5": {
+          content: {
+            de: "Dokumente",
+            en: "Docs",
+            es: "Documentos",
+            fr: "Documents",
+            ja: "ドキュメント",
+          },
+          hash: "239e12d17a6b83d08fd73bcc519cb40d",
+        },
+        "10/declaration/body/3/argument/5/expression/right/1/7/1/1": {
+          content: {
+            de: "ANMELDEN",
+            en: "SIGN IN",
+            es: "INICIAR SESIÓN",
+            fr: "SE CONNECTER",
+            ja: "サインイン",
+          },
+          hash: "02c6082b699a4a9b6061420dd79812c7",
+        },
+        "10/declaration/body/4/argument/1/5/5": {
+          content: {
+            de: "Dokumente",
+            en: "Docs",
+            es: "Documentos",
+            fr: "Documents",
+            ja: "ドキュメント",
+          },
+          hash: "190c4fe735b16b204179b4fd69cf9716",
+        },
+        "10/declaration/body/4/argument/5/expression/right/1/5": {
+          content: {
+            de: "Dokumente",
+            en: "Docs",
+            es: "Documentos",
+            fr: "Documents",
+            ja: "ドキュメント",
+          },
+          hash: "239e12d17a6b83d08fd73bcc519cb40d",
+        },
+        "10/declaration/body/5/argument/1/5/5": {
+          content: {
+            de: "Dokumente",
+            en: "Docs",
+            es: "Documentos",
+            fr: "Documents",
+            ja: "ドキュメント",
+          },
+          hash: "190c4fe735b16b204179b4fd69cf9716",
+        },
+        "10/declaration/body/5/argument/5/expression/right/1/5": {
+          content: {
+            de: "Dokumente",
+            en: "Docs",
+            es: "Documentos",
+            fr: "Documents",
+            ja: "ドキュメント",
+          },
+          hash: "239e12d17a6b83d08fd73bcc519cb40d",
+        },
+        "9/declaration/body/3/argument/1/5/1": {
+          content: {
+            de: "Funktionen",
+            en: "Features",
+            es: "Características",
+            fr: "Fonctionnalités",
+            ja: "機能",
+          },
+          hash: "d003eae00652261275ae490925a93501",
+        },
+        "9/declaration/body/3/argument/1/5/3": {
+          content: {
+            de: "Preise",
+            en: "Pricing",
+            es: "Precios",
+            fr: "Tarification",
+            ja: "価格",
+          },
+          hash: "9b4f8e0306262c4d6614efcf7d74b674",
+        },
+        "9/declaration/body/3/argument/1/5/5": {
+          content: {
+            de: "Dokumente",
+            en: "Docs",
+            es: "Documentos",
+            fr: "Documents",
+            ja: "ドキュメント",
+          },
+          hash: "190c4fe735b16b204179b4fd69cf9716",
+        },
+        "9/declaration/body/3/argument/1/7/3/1": {
+          content: {
+            de: "ANMELDEN",
+            en: "SIGN IN",
+            es: "INICIAR SESIÓN",
+            fr: "SE CONNECTER",
+            ja: "サインイン",
+          },
+          hash: "b4902089da68be0577a9a020535e637c",
+        },
+        "9/declaration/body/3/argument/5/expression/right/1/1": {
+          content: {
+            de: "Funktionen",
+            en: "Features",
+            es: "Características",
+            fr: "Fonctionnalités",
+            ja: "機能",
+          },
+          hash: "2e0b8174a0461da84f5a7f647033db84",
+        },
+        "9/declaration/body/3/argument/5/expression/right/1/3": {
+          content: {
+            de: "Preise",
+            en: "Pricing",
+            es: "Precios",
+            fr: "Tarifs",
+            ja: "価格",
+          },
+          hash: "d54416fc69270a57577dd7f00c55323b",
+        },
+        "9/declaration/body/3/argument/5/expression/right/1/5": {
+          content: {
+            de: "Dokumente",
+            en: "Docs",
+            es: "Documentos",
+            fr: "Documents",
+            ja: "ドキュメント",
+          },
+          hash: "239e12d17a6b83d08fd73bcc519cb40d",
+        },
+        "9/declaration/body/3/argument/5/expression/right/1/7/1/1": {
+          content: {
+            de: "ANMELDEN",
+            en: "SIGN IN",
+            es: "INICIAR SESIÓN",
+            fr: "SE CONNECTER",
+            ja: "サインイン",
+          },
+          hash: "02c6082b699a4a9b6061420dd79812c7",
+        },
+        "9/declaration/body/4/argument/1/5/5": {
+          content: {
+            de: "Dokumente",
+            en: "Docs",
+            es: "Documentos",
+            fr: "Documents",
+            ja: "ドキュメント",
+          },
+          hash: "190c4fe735b16b204179b4fd69cf9716",
+        },
+        "9/declaration/body/4/argument/5/expression/right/1/5": {
+          content: {
+            de: "Dokumente",
+            en: "Docs",
+            es: "Documentos",
+            fr: "Documents",
+            ja: "ドキュメント",
+          },
+          hash: "239e12d17a6b83d08fd73bcc519cb40d",
+        },
+      },
+    },
+    "../components/sections/hero-section.tsx": {
+      entries: {
+        "4/declaration/body/0/argument/11/1/11": {
+          content: {
+            de: "Verwandeln Sie jede Codebasis in Sekundenschnelle in eine schöne, umfassende Dokumentation. ZenDoc basiert auf Google Gemini AI und versteht Ihre Codestruktur und generiert intelligente Dokumentation, die Ihrem Team wirklich hilft.",
+            en: "Transform any codebase into beautiful, comprehensive docs in seconds. Powered by Google Gemini AI, ZenDoc understands your code structure and generates intelligent documentation that actually helps your team.",
+            es: "Transforma cualquier base de código en documentación completa y atractiva en segundos. Impulsado por la IA Gemini de Google, ZenDoc comprende la estructura de tu código y genera documentación inteligente que realmente ayuda a tu equipo.",
+            fr: "Transformez n'importe quel code source en une documentation magnifique et complète en quelques secondes. Propulsé par l'IA Gemini de Google, ZenDoc comprend la structure de votre code et génère une documentation intelligente qui aide réellement votre équipe.",
+            ja: "あらゆるコードベースを、美しく包括的なドキュメントに数秒で変換します。Google Gemini AIを搭載したZenDocは、コード構造を理解し、チームの役に立つインテリジェントなドキュメントを生成します。",
+          },
+          hash: "85d292d22c555da498178076cdcf959f",
+        },
+        "4/declaration/body/0/argument/11/1/3": {
+          content: {
+            de: "<element:Sparkles></element:Sparkles> KI-gestützt • Blitzschnell • Datenschutzorientiert",
+            en: "<element:Sparkles></element:Sparkles> AI-Powered • Lightning Fast • Privacy First",
+            es: "<element:Sparkles></element:Sparkles> Con tecnología de IA • Velocidad ultrarrápida • Prioridad en la privacidad",
+            fr: "<element:Sparkles></element:Sparkles> Optimisé par l'IA • Ultra-rapide • Priorité à la confidentialité",
+            ja: "<element:Sparkles></element:Sparkles> AI搭載 • 驚くほどの速さ • プライバシー優先",
+          },
+          hash: "f17e60ae854ac596a559bffe5f883d3d",
+        },
+      },
+    },
+    "../components/sections/pricing-section.tsx": {
+      entries: {
+        "6/declaration/body/0/argument/1/1/1": {
+          content: {
+            de: "Preise",
+            en: "Pricing",
+            es: "Precios",
+            fr: "Tarification",
+            ja: "価格",
+          },
+          hash: "9b4f8e0306262c4d6614efcf7d74b674",
+        },
+        "6/declaration/body/0/argument/1/1/3": {
+          content: {
+            de: "Einfache, transparente <element:span>Preise</element:span>",
+            en: "Simple, transparent <element:span>pricing</element:span>",
+            es: "<element:span>Precios</element:span> simples y transparentes",
+            fr: "Tarification simple et transparente <element:span></element:span>",
+            ja: "シンプルで透明性の高い<element:span>価格設定</element:span>",
+          },
+          hash: "ca29a8341377f39a93f836272208fc72",
+        },
+        "6/declaration/body/0/argument/1/1/5": {
+          content: {
+            de: "Wählen Sie den perfekten Plan für Ihre Dokumentationsanforderungen. Beginnen Sie kostenlos und skalieren Sie mit Ihrem Wachstum.",
+            en: "Choose the perfect plan for your documentation needs. Start free and scale as you grow.",
+            es: "Elige el plan perfecto para tus necesidades de documentación. Comienza gratis y escala a medida que creces.",
+            fr: "Choisissez le plan parfait pour vos besoins en documentation. Commencez gratuitement et évoluez au fur et à mesure de votre croissance.",
+            ja: "ドキュメントのニーズに最適なプランをお選びください。無料で開始し、成長に合わせてスケールできます。",
+          },
+          hash: "32373700375777ee694fd261038453c8",
+        },
+        "6/declaration/body/0/argument/1/3/1/expression/0/body/1/expression/right/1":
+          {
+            content: {
+              de: "Am beliebtesten",
+              en: "Most Popular",
+              es: "Más popular",
+              fr: "Le plus populaire",
+              ja: "最も人気",
+            },
+            hash: "794d089f06d8ac43ef688cc6f4543418",
+          },
+        "6/declaration/body/0/argument/1/3/1/expression/0/body/3/7/3/expression/right":
+          {
+            content: {
+              de: "/{plan.period}",
+              en: "/{plan.period}",
+              es: "/{plan.period}",
+              fr: "/{plan.period}",
+              ja: "/{plan.period}",
+            },
+            hash: "0cdb14b84eea96654ba79f1fc48ea4e1",
           },
         "6/declaration/body/0/argument/1/5/1": {
           content: {

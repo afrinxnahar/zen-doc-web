@@ -26,8 +26,8 @@
     "signOut": "Sign Out"
   },
   "hero": {
-    "title": "Stop Writing Documentation. Start Generating It.",
-    "subtitle": "Transform any codebase into beautiful, comprehensive docs in seconds. Powered by Google Gemini AI, ZenDoc understands your code structure and generates intelligent documentation that actually helps your team.",
+    "title": "",
+    "subtitle": "",
     "cta": {
       "primary": "Generate Docs Now",
       "secondary": "See How It Works"
@@ -36,7 +36,7 @@
       "label": "Install with npm:",
       "command": "npm install -g zendoc-cli"
     },
-    "badge": "AI-Powered • Lightning Fast • Privacy First"
+    "badge": ""
   },
   "features": {
     "title": "Everything you need for perfect docs",
