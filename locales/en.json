@@ -27,9 +27,9 @@
   },
   "hero": {
     "title": "Generate Documentation from Any Codebase",
-    "subtitle": "Zen Doc is an AI-powered CLI tool that automatically generates comprehensive documentation from your codebase using advanced AI — all with one simple command.",
+    "subtitle": "Zen Doc is an powerful CLI tool that automatically generates comprehensive documentation from your codebase using advanced AI — all with one simple command.",
     "cta": {
-      "primary": "Try ZenDoc CLI",
+      "primary": "Try Zen Doc CLI",
       "secondary": "View Documentation"
     },
     "install": {

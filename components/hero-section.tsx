@@ -6,6 +6,10 @@ import { ArrowRight, Terminal, Sparkles, Copy, Check } from "lucide-react"
 import { useState } from "react"
 import Link from "next/link"
 import { useTranslation } from "@/hooks/use-translation"
+import { ShinyButton } from "./magicui/shiny-button"
+import { RainbowButton } from "./magicui/rainbow-button"
+import { BackgroundBeams } from "./background-beams"
+import { ScriptCopyBtn } from "./magicui/script-copy-btn"
 
 export function HeroSection() {
   const { t } = useTranslation()
@@ -17,6 +21,13 @@ export function HeroSection() {
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }
+
+  const customCommandMap = {
+    npm: "npx zen-doc@latest init",
+    yarn: "yarn dlx zen-doc@latest init",
+    pnpm: "pnpm dlx zen-doc@latest init",
+    bun: "bun x zen-doc@latest init",
+  };
 
   return (
     <section className="relative overflow-hidden py-20 md:py-32 w-full">
@@ -64,31 +75,38 @@ export function HeroSection() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Link href="/auth/signup">
-              <Button size="lg" className="px-8 py-6 text-lg">
-                {t("hero.cta.primary")}
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
+              <ShinyButton className="px-6 py-4 text-lg">
+                <span className="flex items-center justify-center">
+                  {t("hero.cta.primary")}
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </span>
+              </ShinyButton>
             </Link>
             <Link href="/docs">
-              <Button variant="outline" size="lg" className="px-8 py-6 text-lg bg-transparent">
-                {t("hero.cta.secondary")}
-              </Button>
+              <RainbowButton className="px-6 py-4 text-lg bg-white h-[3.2rem] rounded-md">
+                <span>
+                  {t("hero.cta.secondary")}
+                </span>
+              </RainbowButton>
             </Link>
           </div>
 
           {/* Install command */}
           <div className="max-w-md mx-auto">
-            <p className="text-sm text-muted-foreground mb-3">{t("hero.install.label")}</p>
-            <div className="flex items-center bg-muted rounded-lg p-4 font-mono text-sm">
-              <Terminal className="mr-3 h-4 w-4 text-muted-foreground" />
-              <code className="flex-1 text-left">{installCommand}</code>
-              <Button variant="ghost" size="sm" onClick={copyToClipboard} className="ml-2 h-8 w-8 p-0">
-                {copied ? <Check className="h-4 w-4 text-green-500" /> : <Copy className="h-4 w-4" />}
-              </Button>
+            <p className="text-sm text-muted-foreground mb-3">Installation</p>
+            <div className="flex items-center flex-col bg-transaprent border-[0.5px] border-zinc-900 rounded-md p-8 font-mono text-sm">
+              <ScriptCopyBtn
+                showMultiplePackageOptions={true}
+                codeLanguage="shell"
+                lightTheme="nord"
+                darkTheme="one-dark-pro"
+                commandMap={customCommandMap}
+              />
             </div>
           </div>
         </div>
       </div>
+      {/* <BackgroundBeams className="-z-10" /> */}
     </section>
   )
 }
