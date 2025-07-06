@@ -2,64 +2,99 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Terminal, Zap, FileText, Code, GitBranch, Sparkles, Clock, Shield, Palette } from "lucide-react"
+import { Terminal, Zap, FileText, Code, GitBranch, Sparkles, Clock, Shield, Palette, Rocket, Layers, BarChart2, Search, MessageCircle, Globe, Package, Filter, CreditCard, BrainCircuit, Settings } from "lucide-react"
+import { BackgroundBeams } from "./background-beams"
 
 const features = [
   {
     icon: Terminal,
-    title: "One Command Setup",
-    description: "Generate comprehensive documentation with a single CLI command. No complex configuration required.",
+    title: "One-command CLI Tool",
+    description: "Generate comprehensive documentation instantly with `npx zen-doc generate`. No complex setup required.",
     badge: "Easy",
   },
   {
-    icon: Sparkles,
-    title: "AI-Powered Analysis",
-    description: "Leverages Google Gemini AI to understand your code structure and generate intelligent documentation.",
+    icon: Settings,
+    title: "Prompt-driven Configuration",
+    description: "Interactive setup to create and customize `zen.config.js` with ease.",
+    badge: "User-friendly",
+  },
+  {
+    icon: BrainCircuit,
+    title: "AI-generated Content",
+    description: "Utilizes advanced models like Google Gemini to produce human-readable documentation from your code.",
     badge: "Smart",
   },
   {
-    icon: FileText,
-    title: "Multiple Formats",
-    description:
-      "Export documentation in Markdown, HTML, PDF, or integrate directly with popular documentation platforms.",
-    badge: "Flexible",
-  },
-  {
-    icon: Code,
-    title: "Language Agnostic",
-    description: "Works with any programming language or framework. From JavaScript to Python, React to Django.",
-    badge: "Universal",
-  },
-  {
-    icon: GitBranch,
-    title: "Git Integration",
-    description:
-      "Automatically detects changes and updates documentation. Seamlessly integrates with your Git workflow.",
-    badge: "Automated",
-  },
-  {
-    icon: Zap,
-    title: "Lightning Fast",
-    description: "Process thousands of files in seconds. Optimized for performance with intelligent caching.",
+    icon: Rocket,
+    title: "Astro-powered Static Doc Site",
+    description: "Builds a fast, static documentation site using Astro for seamless browsing.",
     badge: "Fast",
   },
   {
-    icon: Clock,
-    title: "Real-time Updates",
-    description: "Watch mode automatically regenerates docs when your code changes. Perfect for active development.",
-    badge: "Live",
-  },
-  {
-    icon: Shield,
-    title: "Privacy First",
-    description: "Your code never leaves your machine. All processing happens locally with secure API calls.",
+    icon: CreditCard,
+    title: "UseAutumn and Stripe Integration",
+    description: "Implements a credit-based payment system with Autumn and Stripe for flexible billing.",
     badge: "Secure",
   },
   {
+    icon: Filter,
+    title: "Automatic Non-code Directory Skip",
+    description: "Smartly skips directories like `node_modules` and `dist` during scanning.",
+    badge: "Efficient",
+  },
+  {
+    icon: Package,
+    title: "Multi-package Manager Support",
+    description: "Compatible with npm, yarn, pnpm, and bun for versatile project integration.",
+    badge: "Flexible",
+  },
+  {
+    icon: Globe,
+    title: "Multilingual Support with Lingo.dev",
+    description: "Offers automatic translation and language expansion for global accessibility.",
+    badge: "Inclusive",
+  },
+  {
+    icon: MessageCircle,
+    title: "Chatbot Support with Tambo AI",
+    description: "Provides an AI assistant to guide users through the documentation process.",
+    badge: "Helpful",
+  },
+  {
     icon: Palette,
-    title: "Customizable Themes",
-    description: "Choose from beautiful pre-built themes or create your own. Match your brand and style.",
-    badge: "Stylish",
+    title: "Theme Customization for Generated Docs",
+    description: "Customize the look and feel of your documentation.",
+    badge: "Coming Soon",
+  },
+  {
+    icon: Search,
+    title: "AI-powered Search Inside Documentation",
+    description: "Enable intelligent search within your docs.",
+    badge: "Coming Soon",
+  },
+  {
+    icon: BarChart2,
+    title: "Component Usage Visualization",
+    description: "Visualize how components are used in your project.",
+    badge: "Coming Soon",
+  },
+  {
+    icon: GitBranch,
+    title: "Integration with GitHub for Auto-deployment",
+    description: "Automate deployment of docs via GitHub.",
+    badge: "Coming Soon",
+  },
+  {
+    icon: Layers,
+    title: "Support for Monorepo Structures",
+    description: "Extend documentation to monorepo setups.",
+    badge: "Coming Soon",
+  },
+  {
+    icon: Code,
+    title: "Support for Multiple Frameworks",
+    description: "Expand compatibility to various frameworks.",
+    badge: "Coming Soon",
   },
 ]
 
@@ -78,7 +113,7 @@ export function FeaturesSection() {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            ZenDoc combines the power of AI with developer-friendly tools to create documentation that actually helps
+            Zen Doc combines the power of AI with developer-friendly tools like lingo.dev, Tambo AI etc. to create documentation that actually helps
             your team and users.
           </p>
         </div>
