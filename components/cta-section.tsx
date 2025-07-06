@@ -1,15 +1,17 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { ArrowRight, Terminal, Users, Zap } from "lucide-react"
-import Link from "next/link"
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { ArrowRight, Terminal, Users, Zap } from "lucide-react";
+import Link from "next/link";
+import { NumberTicker } from "@/components/magicui/number-ticker";
 
 const stats = [
-  { icon: Terminal, value: "10K+", label: "CLI Downloads" },
-  { icon: Users, value: "500+", label: "Happy Developers" },
-  { icon: Zap, value: "1M+", label: "Files Processed" },
-]
+  { icon: Terminal, value: 10000, label: "CLI Downloads" },
+  { icon: Users, value: 500, label: "Happy Developers" },
+  { icon: Zap, value: 1000000, label: "Files Processed" },
+];
 
 export function CTASection() {
+
   return (
     <section className="py-20 md:py-32">
       <div className="container">
@@ -33,15 +35,23 @@ export function CTASection() {
 
               {/* Stats */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                {stats.map((stat, index) => (
-                  <div key={index} className="text-center">
-                    <div className="inline-flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mb-3">
-                      <stat.icon className="h-6 w-6 text-primary" />
+                {stats.map((stat, index) => {
+                  return (
+                    <div key={index} className="text-center">
+                      <div className="inline-flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg mb-3">
+                        <stat.icon className="h-6 w-6 text-primary" />
+                      </div>
+                      <div className="text-2xl font-bold flex items-center justify-center">
+                        <NumberTicker
+                          value={stat.value}
+                          className="whitespace-pre-wrap text-2xl font-bold tracking-tighter text-black dark:text-white"
+                        />
+                        <span className="ml-1">+</span>
+                      </div>
+                      <div className="text-sm text-muted-foreground">{stat.label}</div>
                     </div>
-                    <div className="text-2xl font-bold">{stat.value}</div>
-                    <div className="text-sm text-muted-foreground">{stat.label}</div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
 
               {/* CTA Buttons */}
@@ -67,5 +77,5 @@ export function CTASection() {
         </Card>
       </div>
     </section>
-  )
+  );
 }
