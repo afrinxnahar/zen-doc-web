@@ -1,6 +1,8 @@
 import Link from "next/link"
 import { Terminal, Github, Twitter, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import logo from "@/public/logo.png"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -10,28 +12,28 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
-              <Terminal className="h-6 w-6" />
+              <Image src={logo} alt="Zen Doc" className="h-10 w-10" />
               <span className="font-bold text-xl">Zen Doc</span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
-              AI-powered documentation generation for modern development teams.
+              AI-powered documentation generation from any codebase.
             </p>
             <div className="flex space-x-2">
               <Button variant="ghost" size="sm" asChild>
-                <Link href="https://github.com/zendoc">
+                <Link href="https://github.com/leen-neel/zen-doc-cli">
                   <Github className="h-4 w-4" />
                 </Link>
               </Button>
               <Button variant="ghost" size="sm" asChild>
-                <Link href="https://twitter.com/zendoc">
+                <Link href="https://x.com/afrinxnahar">
                   <Twitter className="h-4 w-4" />
                 </Link>
               </Button>
-              <Button variant="ghost" size="sm" asChild>
-                <Link href="mailto:hello@zendoc.dev">
+              {/* <Button variant="ghost" size="sm" asChild>
+                <Link href="mailto:and">
                   <Mail className="h-4 w-4" />
                 </Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
 
@@ -118,7 +120,7 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} ZenDoc. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Zen Doc. All rights reserved.</p>
           <p className="text-sm text-muted-foreground mt-4 md:mt-0">Made with ❤️ for developers</p>
         </div>
       </div>
