@@ -5,15 +5,16 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { LanguageSwitcher } from "@/components/i18n/language-switcher";
 import { Menu, X } from "lucide-react";
-import { useTranslation } from "@/hooks/use-translation";
 import { useLenis } from "@/lib/providers/LenisProvider";
 import { RainbowButton } from "../magicui/rainbow-button";
 import Logo from "../logo";
+import { useLang } from "../i18n/lingo-provider";
 
 export function Header() {
-  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const lenis = useLenis();
+
+
 
   const handleSmoothScroll = (
     e: React.MouseEvent<HTMLAnchorElement>,
@@ -51,14 +52,14 @@ export function Header() {
             className="text-sm font-medium hover:text-primary transition-colors"
             onClick={(e) => handleSmoothScroll(e, "features")}
           >
-            {t("navigation.features")}
+            Features
           </Link>
           <Link
             href="#pricing"
             className="text-sm font-medium hover:text-primary transition-colors"
             onClick={(e) => handleSmoothScroll(e, "pricing")}
           >
-            {t("navigation.pricing")}
+            Pricing
           </Link>
           <Link
             href="/docs"
@@ -72,7 +73,7 @@ export function Header() {
           <LanguageSwitcher />
           <Link href="/auth/signin">
             <RainbowButton className="rounded-md">
-              {t("navigation.signIn")}
+              SIGN IN
             </RainbowButton>
           </Link>
         </div>
@@ -103,14 +104,14 @@ export function Header() {
               className="block text-sm font-medium hover:text-primary transition-colors"
               onClick={(e) => handleSmoothScroll(e, "features")}
             >
-              {t("navigation.features")}
+              Features
             </Link>
             <Link
               href="#pricing"
               className="block text-sm font-medium hover:text-primary transition-colors"
               onClick={(e) => handleSmoothScroll(e, "pricing")}
             >
-              {t("navigation.pricing")}
+              Pricing
             </Link>
             <Link
               href="/docs"
@@ -122,7 +123,7 @@ export function Header() {
             <div className="flex space-x-2 pt-4">
               <Link href="/auth/signin" className="flex-1">
                 <RainbowButton className="rounded-md">
-                  {t("navigation.signIn")}
+                  SIGN IN
                 </RainbowButton>
               </Link>
             </div>

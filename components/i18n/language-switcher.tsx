@@ -2,13 +2,13 @@
 import { Button } from "@/components/ui/button"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Globe } from "lucide-react"
-import { useI18n } from "@/components/i18n/lingo-provider"
 import { supportedLocales } from "@/lib/i18n/config"
+import { useLang } from "./lingo-provider";
 
 export function LanguageSwitcher() {
-  const { locale, setLocale } = useI18n()
+  const { lang, setLang } = useLang();
 
-  const currentLocale = supportedLocales.find((l) => l.code === locale)
+  const currentLocale = supportedLocales.find((l) => l.code === lang)
 
   return (
     <DropdownMenu>
@@ -22,8 +22,8 @@ export function LanguageSwitcher() {
         {supportedLocales.map((supportedLocale) => (
           <DropdownMenuItem
             key={supportedLocale.code}
-            onClick={() => setLocale(supportedLocale.code)}
-            className={`flex items-center gap-2 ${locale === supportedLocale.code ? "bg-accent" : ""}`}
+            onClick={(e) => setLang(supportedLocale.code)}
+            className={`flex items-center gap-2 ${lang === supportedLocale.code ? "bg-accent" : ""}`}
           >
             <span>{supportedLocale.flag}</span>
             <span>{supportedLocale.name}</span>

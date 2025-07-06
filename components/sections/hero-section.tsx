@@ -2,13 +2,11 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Sparkles } from "lucide-react";
-import { useTranslation } from "@/hooks/use-translation";
 
 import { BackgroundBeams } from "../background-beams";
 import HeroVideoDialog from "../magicui/hero-video-dialog";
 
 export function HeroSection() {
-  const { t } = useTranslation();
 
   return (
     <section className="relative overflow-hidden py-20 md:py-32 w-full">
@@ -27,12 +25,12 @@ export function HeroSection() {
           {/* Badge */}
           <Badge variant="secondary" className="mb-6 px-4 py-2">
             <Sparkles className="mr-2 h-4 w-4" />
-            {t("hero.badge")}
+            AI-Powered • Lightning Fast • Privacy First
           </Badge>
 
           {/* Main heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
-            {t("hero.title")
+            {"Stop Writing Documentation. Start Generating It."
               .split(" ")
               .map((word, index) => {
                 if (word === "Generating") {
@@ -51,7 +49,7 @@ export function HeroSection() {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            {t("hero.subtitle")}
+            Transform any codebase into beautiful, comprehensive docs in seconds. Powered by Google Gemini AI, ZenDoc understands your code structure and generates intelligent documentation that actually helps your team.
           </p>
 
           {/* CTA Buttons */}
