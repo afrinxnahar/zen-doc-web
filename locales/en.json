@@ -26,17 +26,17 @@
     "signOut": "Sign Out"
   },
   "hero": {
-    "title": "Generate Documentation from Any Codebase",
-    "subtitle": "Zen Doc is an powerful CLI tool that automatically generates comprehensive documentation from your codebase using advanced AI — all with one simple command.",
+    "title": "Stop Writing Documentation. Start Generating It.",
+    "subtitle": "Transform any codebase into beautiful, comprehensive docs in seconds. Powered by Google Gemini AI, ZenDoc understands your code structure and generates intelligent documentation that actually helps your team.",
     "cta": {
-      "primary": "Try Zen Doc CLI",
-      "secondary": "View Documentation"
+      "primary": "Generate Docs Now",
+      "secondary": "See How It Works"
     },
     "install": {
       "label": "Install with npm:",
       "command": "npm install -g zendoc-cli"
     },
-    "badge": "Powered by Google Gemini AI"
+    "badge": "AI-Powered • Lightning Fast • Privacy First"
   },
   "features": {
     "title": "Everything you need for perfect docs",
@@ -295,7 +295,11 @@
       "aiPoweredAnalysis": {
         "title": "AI-Powered Analysis",
         "description": "Leverages Google Gemini to understand your code structure and generate intelligent documentation.",
-        "features": ["Automatic code analysis", "Context-aware documentation", "Smart formatting and structure"]
+        "features": [
+          "Automatic code analysis",
+          "Context-aware documentation",
+          "Smart formatting and structure"
+        ]
       },
       "multipleOutputFormats": {
         "title": "Multiple Output Formats",
@@ -305,12 +309,20 @@
       "languageAgnostic": {
         "title": "Language Agnostic",
         "description": "Works with any programming language or framework out of the box.",
-        "features": ["JavaScript/TypeScript", "Python, Java, C++", "And many more..."]
+        "features": [
+          "JavaScript/TypeScript",
+          "Python, Java, C++",
+          "And many more..."
+        ]
       },
       "gitIntegration": {
         "title": "Git Integration",
         "description": "Seamlessly integrates with your existing Git workflow and CI/CD pipelines.",
-        "features": ["Automatic change detection", "CI/CD integration", "Version control friendly"]
+        "features": [
+          "Automatic change detection",
+          "CI/CD integration",
+          "Version control friendly"
+        ]
       }
     },
     "nextSteps": {

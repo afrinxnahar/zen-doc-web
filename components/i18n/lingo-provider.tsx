@@ -1,23 +1,23 @@
-"use client"
+"use client";
 
-import type React from "react"
-import { createContext, useContext, useState, useEffect } from "react"
-import type { SupportedLocale } from "@/lib/i18n/config"
-import { defaultLocale } from "@/lib/i18n/config"
+import type React from "react";
+import { createContext, useContext, useState, useEffect } from "react";
+import type { SupportedLocale } from "@/lib/i18n/config";
+import { defaultLocale } from "@/lib/i18n/config";
 
 interface I18nContextType {
-  locale: SupportedLocale
-  setLocale: (locale: SupportedLocale) => void
-  isLoading: boolean
-  translations: Record<string, any>
+  locale: SupportedLocale;
+  setLocale: (locale: SupportedLocale) => void;
+  isLoading: boolean;
+  translations: Record<string, any>;
 }
 
 const I18nContext = createContext<I18nContextType>({
   locale: defaultLocale,
-  setLocale: () => { },
+  setLocale: () => {},
   isLoading: false,
   translations: {},
-})
+});
 
 // Import English translations directly
 const englishTranslations = {
@@ -48,9 +48,9 @@ const englishTranslations = {
     signOut: "Sign Out",
   },
   hero: {
-    title: "Generate Documentation from Any Codebase",
+    title: "Generate Developer Docs in Minutes",
     subtitle:
-      "Zen Doc is an AI-powered CLI tool that automatically generates comprehensive documentation from your codebase using advanced AI — all with one simple command.",
+      "Zen Doc is an AI-powered CLI tool. It instantly generates comprehensive documentation from your codebase, all with a single command.",
     cta: {
       primary: "Try Zen Doc CLI",
       secondary: "View Documentation",
@@ -62,42 +62,50 @@ const englishTranslations = {
     badge: "Powered by Google Gemini AI",
   },
   // Add more translations as needed
-}
+};
 
 export function I18nProvider({ children }: { children: React.ReactNode }) {
-  const [locale, setLocaleState] = useState<SupportedLocale>(defaultLocale)
-  const [isLoading, setIsLoading] = useState(false)
-  const [translations, setTranslations] = useState(englishTranslations)
+  const [locale, setLocaleState] = useState<SupportedLocale>(defaultLocale);
+  const [isLoading, setIsLoading] = useState(false);
+  const [translations, setTranslations] = useState(englishTranslations);
 
   const setLocale = (newLocale: SupportedLocale) => {
-    setLocaleState(newLocale)
+    setLocaleState(newLocale);
     if (typeof window !== "undefined") {
-      localStorage.setItem("zendoc-locale", newLocale)
-      document.documentElement.lang = newLocale
+      localStorage.setItem("zendoc-locale", newLocale);
+      document.documentElement.lang = newLocale;
     }
 
     // For now, we'll use English translations for all locales
     // In a real implementation, you would load the appropriate translation file
-    setTranslations(englishTranslations)
-  }
+    setTranslations(englishTranslations);
+  };
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const savedLocale = localStorage.getItem("zendoc-locale") as SupportedLocale
-      const browserLocale = navigator.language.split("-")[0] as SupportedLocale
-      const initialLocale = savedLocale || browserLocale || defaultLocale
-      setLocaleState(initialLocale)
-      document.documentElement.lang = initialLocale
+      const savedLocale = localStorage.getItem(
+        "zendoc-locale"
+      ) as SupportedLocale;
+      const browserLocale = navigator.language.split("-")[0] as SupportedLocale;
+      const initialLocale = savedLocale || browserLocale || defaultLocale;
+      setLocaleState(initialLocale);
+      document.documentElement.lang = initialLocale;
     }
-  }, [])
+  }, []);
 
-  return <I18nContext.Provider value={{ locale, setLocale, isLoading, translations }}>{children}</I18nContext.Provider>
+  return (
+    <I18nContext.Provider
+      value={{ locale, setLocale, isLoading, translations }}
+    >
+      {children}
+    </I18nContext.Provider>
+  );
 }
 
 export const useI18n = () => {
-  const context = useContext(I18nContext)
+  const context = useContext(I18nContext);
   if (!context) {
-    throw new Error("useI18n must be used within an I18nProvider")
+    throw new Error("useI18n must be used within an I18nProvider");
   }
-  return context
-}
+  return context;
+};

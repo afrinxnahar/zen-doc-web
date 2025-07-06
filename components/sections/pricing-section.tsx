@@ -1,10 +1,16 @@
-"use client"
+"use client";
 
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Check, Zap, Crown, Users } from "lucide-react"
-import Link from "next/link"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Check, Zap, Crown, Users } from "lucide-react";
+import Link from "next/link";
 
 const plans = [
   {
@@ -64,22 +70,25 @@ const plans = [
     popular: false,
     href: "/contact",
   },
-]
+];
 
 export function PricingSection() {
   return (
     <section className="py-20 md:py-32 bg-muted/30 w-full" id="pricing">
-      <div className="container">
+      <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4">
             Pricing
           </Badge>
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
             Simple, transparent{" "}
-            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">pricing</span>
+            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              pricing
+            </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Choose the perfect plan for your documentation needs. Start free and scale as you grow.
+            Choose the perfect plan for your documentation needs. Start free and
+            scale as you grow.
           </p>
         </div>
 
@@ -90,7 +99,7 @@ export function PricingSection() {
               className={`relative ${plan.popular ? "border-primary shadow-lg scale-105" : "border-muted"} hover:shadow-lg transition-all duration-300`}
             >
               {plan.popular && (
-                <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 z-10">
                   <Badge className="px-3 py-1">Most Popular</Badge>
                 </div>
               )}
@@ -100,17 +109,26 @@ export function PricingSection() {
                   <plan.icon className="h-6 w-6 text-primary" />
                 </div>
                 <CardTitle className="text-2xl">{plan.name}</CardTitle>
-                <CardDescription className="text-base">{plan.description}</CardDescription>
+                <CardDescription className="text-base">
+                  {plan.description}
+                </CardDescription>
                 <div className="mt-4">
                   <span className="text-4xl font-bold">{plan.price}</span>
-                  {plan.period !== "forever" && <span className="text-muted-foreground">/{plan.period}</span>}
+                  {plan.period !== "forever" && (
+                    <span className="text-muted-foreground">
+                      /{plan.period}
+                    </span>
+                  )}
                 </div>
               </CardHeader>
 
               <CardContent className="space-y-6">
                 <ul className="space-y-3">
                   {plan.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-start space-x-3">
+                    <li
+                      key={featureIndex}
+                      className="flex items-start space-x-3"
+                    >
                       <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                       <span className="text-sm">{feature}</span>
                     </li>
@@ -118,7 +136,11 @@ export function PricingSection() {
                 </ul>
 
                 <Link href={plan.href} className="block">
-                  <Button className="w-full" variant={plan.popular ? "default" : "outline"} size="lg">
+                  <Button
+                    className="w-full"
+                    variant={plan.popular ? "default" : "outline"}
+                    size="lg"
+                  >
                     {plan.cta}
                   </Button>
                 </Link>
@@ -148,5 +170,5 @@ export function PricingSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
