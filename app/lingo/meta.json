@@ -1,0 +1,489 @@
+{
+  "version": 0.1,
+  "files": {
+    "../components/cta-section.tsx": {
+      "scopes": {
+        "6/declaration/body/0/argument/1/1/1/5/1": {
+          "type": "element",
+          "hash": "e5ae5e12efab2e93bf0393b66219055a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Ready to transform your <element:span>documentation workflow?</element:span>"
+        },
+        "6/declaration/body/0/argument/1/1/1/5/11/1/1": {
+          "type": "element",
+          "hash": "c123a2d1f628bded3036d0a0039f210d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Start Free Trial<element:ArrowRight></element:ArrowRight>"
+        },
+        "6/declaration/body/0/argument/1/1/1/5/11/3/1": {
+          "type": "element",
+          "hash": "840a4a5212a24cf7a2cccb310ef0c839",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "View Documentation"
+        },
+        "6/declaration/body/0/argument/1/1/1/5/13": {
+          "type": "element",
+          "hash": "ffa5a360570a3daf408a0c381835bd3c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "No credit card required • Free tier available • Cancel anytime"
+        },
+        "6/declaration/body/0/argument/1/1/1/5/3": {
+          "type": "element",
+          "hash": "cca0ee32880aa436047a29493af0d0da",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Join thousands of developers who have already streamlined their documentation process with ZenDoc. Start generating beautiful docs in minutes."
+        },
+        "6/declaration/body/0/argument/1/1/1/5/7/1/expression/0/body/0/argument/3/3": {
+          "type": "element",
+          "hash": "2286b28fa37112af76d6f5952c4b928e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+"
+        }
+      }
+    },
+    "../components/features-section.tsx": {
+      "scopes": {
+        "5/declaration/body/0/argument/1/1/1": {
+          "type": "element",
+          "hash": "d003eae00652261275ae490925a93501",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Features"
+        },
+        "5/declaration/body/0/argument/1/1/3": {
+          "type": "element",
+          "hash": "59d4f22f846bfcdb8c2e2e9204ff930c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Everything you need for <element:span>perfect docs</element:span>"
+        },
+        "5/declaration/body/0/argument/1/1/5": {
+          "type": "element",
+          "hash": "104e0e850062d073ea330fb1d99c27a8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Zen Doc combines the power of AI with developer-friendly tools like lingo.dev, Tambo AI etc. to create documentation that actually helps your team and users."
+        }
+      }
+    },
+    "../components/footer.tsx": {
+      "scopes": {
+        "5/declaration/body/0/argument/1/1/11/1": {
+          "type": "element",
+          "hash": "9e36d11fa82d1bd4563eef2abc4fcfba",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Company"
+        },
+        "5/declaration/body/0/argument/1/1/11/3/1/1": {
+          "type": "element",
+          "hash": "f0c5e00c4ae765864cda5fef7b5a17c0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "About"
+        },
+        "5/declaration/body/0/argument/1/1/11/3/3/1": {
+          "type": "element",
+          "hash": "f75ab43b40090bd7eceed5db6f0d4cb1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Blog"
+        },
+        "5/declaration/body/0/argument/1/1/11/3/5/1": {
+          "type": "element",
+          "hash": "81ee4ee1ab9bc8dcfeac257caa77e6dd",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Careers"
+        },
+        "5/declaration/body/0/argument/1/1/11/3/7/1": {
+          "type": "element",
+          "hash": "87ed96646d0a2fa5dfd3f530e4382bb3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Contact"
+        },
+        "5/declaration/body/0/argument/1/1/15/1": {
+          "type": "element",
+          "hash": "00d3f08da61a21887009819cf93fb414",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Legal"
+        },
+        "5/declaration/body/0/argument/1/1/15/3/1/1": {
+          "type": "element",
+          "hash": "338ec260ef372e086a7dc2f82371013f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Privacy Policy"
+        },
+        "5/declaration/body/0/argument/1/1/15/3/3/1": {
+          "type": "element",
+          "hash": "c0418d3f350d7c5500e70d094967260b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Terms of Service"
+        },
+        "5/declaration/body/0/argument/1/1/15/3/5/1": {
+          "type": "element",
+          "hash": "157031cf330109a41e818584ac28ad09",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Security"
+        },
+        "5/declaration/body/0/argument/1/1/15/3/7/1": {
+          "type": "element",
+          "hash": "6dbf49c4711f948dd3a51bb6953f122d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Status"
+        },
+        "5/declaration/body/0/argument/1/1/3/1/1-alt": {
+          "type": "attribute",
+          "hash": "3a43a47e66d7a70e43cc6f84650e8f3b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Zen Doc"
+        },
+        "5/declaration/body/0/argument/1/1/3/1/3": {
+          "type": "element",
+          "hash": "3a43a47e66d7a70e43cc6f84650e8f3b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Zen Doc"
+        },
+        "5/declaration/body/0/argument/1/1/3/3": {
+          "type": "element",
+          "hash": "c22a85f6cc1b9bc00aad248819f7a1ce",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AI-powered documentation generation from any codebase."
+        },
+        "5/declaration/body/0/argument/1/1/7/1": {
+          "type": "element",
+          "hash": "4e5f845a09d417dde0a1310bc9ca4bfe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Product"
+        },
+        "5/declaration/body/0/argument/1/1/7/3/1/1": {
+          "type": "element",
+          "hash": "ab258f3a028146d661a2ab7238dc02db",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Features"
+        },
+        "5/declaration/body/0/argument/1/1/7/3/3/1": {
+          "type": "element",
+          "hash": "efe97add6bc81b20040292425927245e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Pricing"
+        },
+        "5/declaration/body/0/argument/1/1/7/3/5/1": {
+          "type": "element",
+          "hash": "248e848f2ca58746c34fca09e8a1f7b5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Documentation"
+        },
+        "5/declaration/body/0/argument/1/1/7/3/7/1": {
+          "type": "element",
+          "hash": "bbf85096e1be70dd25f3f2b8b5ce2bc1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Changelog"
+        },
+        "5/declaration/body/0/argument/1/3/1": {
+          "type": "element",
+          "hash": "ea30b60fe161bf2840f5e59eb2bb2360",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "© <function:Date.getFullYear/> Zen Doc. All rights reserved."
+        },
+        "5/declaration/body/0/argument/1/3/3": {
+          "type": "element",
+          "hash": "458163a11d5d50bfd9a1e99d1757f672",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Made with ❤️ for developers"
+        }
+      }
+    },
+    "../components/header.tsx": {
+      "scopes": {
+        "13/declaration/body/4/argument/1/1/1-alt": {
+          "type": "attribute",
+          "hash": "3a43a47e66d7a70e43cc6f84650e8f3b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Zen Doc"
+        },
+        "13/declaration/body/4/argument/1/1/3": {
+          "type": "element",
+          "hash": "3a43a47e66d7a70e43cc6f84650e8f3b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Zen Doc"
+        },
+        "13/declaration/body/4/argument/1/5/5": {
+          "type": "element",
+          "hash": "190c4fe735b16b204179b4fd69cf9716",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Docs"
+        },
+        "13/declaration/body/4/argument/5/expression/right/1/5": {
+          "type": "element",
+          "hash": "239e12d17a6b83d08fd73bcc519cb40d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Docs"
+        }
+      }
+    },
+    "../components/hero-section.tsx": {
+      "scopes": {
+        "10/declaration/body/5/argument/9/1/19/1": {
+          "type": "element",
+          "hash": "70aaaea59e0186b1d4e2b175b26e4489",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Installation"
+        }
+      }
+    },
+    "../components/pricing-section.tsx": {
+      "scopes": {
+        "6/declaration/body/0/argument/1/1/1": {
+          "type": "element",
+          "hash": "9b4f8e0306262c4d6614efcf7d74b674",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Pricing"
+        },
+        "6/declaration/body/0/argument/1/1/3": {
+          "type": "element",
+          "hash": "ca29a8341377f39a93f836272208fc72",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Simple, transparent <element:span>pricing</element:span>"
+        },
+        "6/declaration/body/0/argument/1/1/5": {
+          "type": "element",
+          "hash": "c1efbdaf53659479246284a58b2ec886",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Choose the perfect plan for your documentation needs. Start free and scale as you grow."
+        },
+        "6/declaration/body/0/argument/1/3/1/expression/0/body/1/expression/right/1": {
+          "type": "element",
+          "hash": "794d089f06d8ac43ef688cc6f4543418",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Most Popular"
+        },
+        "6/declaration/body/0/argument/1/3/1/expression/0/body/3/7/3/expression/right": {
+          "type": "element",
+          "hash": "d727054cb65d0e95c79cfb34bc3e3f28",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "/{plan.period}"
+        },
+        "6/declaration/body/0/argument/1/5/1": {
+          "type": "element",
+          "hash": "8b151e0e62e4df756aeb1bfca69aeb37",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "All plans include a 14-day free trial. No credit card required."
+        },
+        "6/declaration/body/0/argument/1/5/3/1/3": {
+          "type": "element",
+          "hash": "ae51443d033cb7dea112f957d81c9156",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Cancel anytime"
+        },
+        "6/declaration/body/0/argument/1/5/3/3/3": {
+          "type": "element",
+          "hash": "a870ba09e0c018979ab1d9c004dc4d58",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "No setup fees"
+        },
+        "6/declaration/body/0/argument/1/5/3/5/3": {
+          "type": "element",
+          "hash": "7e271fa026ce245edcf9650563a0cb55",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "24/7 support"
+        }
+      }
+    },
+    "not-found.tsx": {
+      "scopes": {
+        "7/declaration/body/0/argument/1/1/13/11": {
+          "type": "element",
+          "hash": "109a06123e6f27125288e25f7a6f5d81",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Oops! The page you're looking for seems to have wandered off into the digital void."
+        },
+        "7/declaration/body/0/argument/1/1/13/15/1/1": {
+          "type": "element",
+          "hash": "58b362f134e801bcf451827c02dd7685",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Home></element:Home> Go Home"
+        },
+        "7/declaration/body/0/argument/1/1/13/15/3": {
+          "type": "element",
+          "hash": "3b3256a3de8e234a8ef47fe5c05f2429",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:ArrowLeft></element:ArrowLeft> Go Back"
+        },
+        "7/declaration/body/0/argument/1/1/13/19/1": {
+          "type": "element",
+          "hash": "c609d74c8425f09e8e63705f7a10a1c3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Looking for something specific?"
+        },
+        "7/declaration/body/0/argument/1/1/13/19/3/1": {
+          "type": "element",
+          "hash": "248e848f2ca58746c34fca09e8a1f7b5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Documentation"
+        },
+        "7/declaration/body/0/argument/1/1/13/19/3/3": {
+          "type": "element",
+          "hash": "a8bd7d4a57d651051cc7c786106d8fae",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Dashboard"
+        },
+        "7/declaration/body/0/argument/1/1/13/19/3/5": {
+          "type": "element",
+          "hash": "a07ab477f26ae387ec241dc6eb29f7fb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sign In"
+        },
+        "7/declaration/body/0/argument/1/1/13/19/3/7": {
+          "type": "element",
+          "hash": "6f2a0744c2c52675b1307575a8fcc4a7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Contact Support"
+        },
+        "7/declaration/body/0/argument/1/1/13/23/1": {
+          "type": "element",
+          "hash": "e1a06397eeb3edf6cbd64813490b982c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "\"The best documentation is the one that exists.\" - Every Developer Ever"
+        },
+        "7/declaration/body/0/argument/1/1/13/3/1-alt": {
+          "type": "attribute",
+          "hash": "7c0aef477b74c1a91a097dbe491c3772",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Not Found"
+        },
+        "7/declaration/body/0/argument/1/1/13/7/1": {
+          "type": "element",
+          "hash": "f671dfc92163d31305961c351b580f36",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "404"
+        },
+        "7/declaration/body/0/argument/1/1/13/7/3": {
+          "type": "element",
+          "hash": "5b1dea4722f8fd52b68f7ac5ce89875d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Page Not Found"
+        },
+        "7/declaration/body/0/argument/1/1/3/1-alt": {
+          "type": "attribute",
+          "hash": "1edb88784676b14a32a55079a135a9da",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Zen Doc Logo"
+        },
+        "7/declaration/body/0/argument/1/1/3/3": {
+          "type": "element",
+          "hash": "3a43a47e66d7a70e43cc6f84650e8f3b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Zen Doc"
+        }
+      }
+    }
+  }
+}

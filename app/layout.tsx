@@ -1,3 +1,4 @@
+
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
@@ -7,6 +8,8 @@ import { AuthProvider } from "@/components/auth-provider"
 import { I18nProvider } from "@/components/i18n/lingo-provider"
 import { Toaster } from "@/components/ui/toaster"
 import LenisProvider from "@/lib/providers/LenisProvider"
+import { LingoProviderWrapper, loadDictionary } from "lingo.dev/react/client";
+
 
 
 const inter = Inter({ subsets: ["latin"] })
@@ -24,16 +27,20 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <I18nProvider>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-            <AuthProvider>
-              <LenisProvider>
-                {children}
-                <Toaster />
-              </LenisProvider>
-            </AuthProvider>
-          </ThemeProvider>
-        </I18nProvider>
+        <LingoProviderWrapper loadDictionary={(locale) => loadDictionary(locale)}>
+
+
+          <I18nProvider>
+            <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+              <AuthProvider>
+                <LenisProvider>
+                  {children}
+                  <Toaster />
+                </LenisProvider>
+              </AuthProvider>
+            </ThemeProvider>
+          </I18nProvider>
+        </LingoProviderWrapper>
       </body>
     </html>
   )

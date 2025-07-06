@@ -12,8 +12,6 @@ export default function NotFound() {
   return (
     <div className="min-h-screen bg-background flex items-center justify-center p-4">
       <div className="max-w-3xl w-[2/3] mx-auto text-center">
-
-
         <Card className="relative overflow-hidden">
           {/* Logo */}
           <Link href="/" className="inline-flex items-center space-x-2 mt-8 mb-4 cursor-pointer">
